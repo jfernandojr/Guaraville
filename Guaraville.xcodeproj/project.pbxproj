@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30EB63751BDB80C100522AEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB63741BDB80C100522AEE /* AppDelegate.swift */; };
+		30EB63771BDB80C100522AEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB63761BDB80C100522AEE /* ViewController.swift */; };
+		30EB637A1BDB80C100522AEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EB63781BDB80C100522AEE /* Main.storyboard */; };
+		30EB637C1BDB80C100522AEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EB637B1BDB80C100522AEE /* Images.xcassets */; };
+		30EB637F1BDB80C100522AEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EB637D1BDB80C100522AEE /* LaunchScreen.xib */; };
+		30EB638B1BDB80C100522AEE /* GuaravilleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB638A1BDB80C100522AEE /* GuaravilleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30EB63851BDB80C100522AEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30EB63671BDB80C100522AEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30EB636E1BDB80C100522AEE;
+			remoteInfo = Guaraville;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30EB636F1BDB80C100522AEE /* Guaraville.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guaraville.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EB63731BDB80C100522AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30EB63741BDB80C100522AEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30EB63761BDB80C100522AEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30EB63791BDB80C100522AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30EB637B1BDB80C100522AEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		30EB637E1BDB80C100522AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		30EB63841BDB80C100522AEE /* GuaravilleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuaravilleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EB63891BDB80C100522AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30EB638A1BDB80C100522AEE /* GuaravilleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuaravilleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30EB636C1BDB80C100522AEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EB63811BDB80C100522AEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30EB63661BDB80C100522AEE = {
+			isa = PBXGroup;
+			children = (
+				30EB63711BDB80C100522AEE /* Guaraville */,
+				30EB63871BDB80C100522AEE /* GuaravilleTests */,
+				30EB63701BDB80C100522AEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30EB63701BDB80C100522AEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30EB636F1BDB80C100522AEE /* Guaraville.app */,
+				30EB63841BDB80C100522AEE /* GuaravilleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30EB63711BDB80C100522AEE /* Guaraville */ = {
+			isa = PBXGroup;
+			children = (
+				30EB63741BDB80C100522AEE /* AppDelegate.swift */,
+				30EB63761BDB80C100522AEE /* ViewController.swift */,
+				30EB63781BDB80C100522AEE /* Main.storyboard */,
+				30EB637B1BDB80C100522AEE /* Images.xcassets */,
+				30EB637D1BDB80C100522AEE /* LaunchScreen.xib */,
+				30EB63721BDB80C100522AEE /* Supporting Files */,
+			);
+			path = Guaraville;
+			sourceTree = "<group>";
+		};
+		30EB63721BDB80C100522AEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30EB63731BDB80C100522AEE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30EB63871BDB80C100522AEE /* GuaravilleTests */ = {
+			isa = PBXGroup;
+			children = (
+				30EB638A1BDB80C100522AEE /* GuaravilleTests.swift */,
+				30EB63881BDB80C100522AEE /* Supporting Files */,
+			);
+			path = GuaravilleTests;
+			sourceTree = "<group>";
+		};
+		30EB63881BDB80C100522AEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30EB63891BDB80C100522AEE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30EB636E1BDB80C100522AEE /* Guaraville */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EB638E1BDB80C100522AEE /* Build configuration list for PBXNativeTarget "Guaraville" */;
+			buildPhases = (
+				30EB636B1BDB80C100522AEE /* Sources */,
+				30EB636C1BDB80C100522AEE /* Frameworks */,
+				30EB636D1BDB80C100522AEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guaraville;
+			productName = Guaraville;
+			productReference = 30EB636F1BDB80C100522AEE /* Guaraville.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30EB63831BDB80C100522AEE /* GuaravilleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EB63911BDB80C100522AEE /* Build configuration list for PBXNativeTarget "GuaravilleTests" */;
+			buildPhases = (
+				30EB63801BDB80C100522AEE /* Sources */,
+				30EB63811BDB80C100522AEE /* Frameworks */,
+				30EB63821BDB80C100522AEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30EB63861BDB80C100522AEE /* PBXTargetDependency */,
+			);
+			name = GuaravilleTests;
+			productName = GuaravilleTests;
+			productReference = 30EB63841BDB80C100522AEE /* GuaravilleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30EB63671BDB80C100522AEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "MacBook Air";
+				TargetAttributes = {
+					30EB636E1BDB80C100522AEE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					30EB63831BDB80C100522AEE = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 30EB636E1BDB80C100522AEE;
+					};
+				};
+			};
+			buildConfigurationList = 30EB636A1BDB80C100522AEE /* Build configuration list for PBXProject "Guaraville" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30EB63661BDB80C100522AEE;
+			productRefGroup = 30EB63701BDB80C100522AEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30EB636E1BDB80C100522AEE /* Guaraville */,
+				30EB63831BDB80C100522AEE /* GuaravilleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30EB636D1BDB80C100522AEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EB637A1BDB80C100522AEE /* Main.storyboard in Resources */,
+				30EB637F1BDB80C100522AEE /* LaunchScreen.xib in Resources */,
+				30EB637C1BDB80C100522AEE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EB63821BDB80C100522AEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30EB636B1BDB80C100522AEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EB63771BDB80C100522AEE /* ViewController.swift in Sources */,
+				30EB63751BDB80C100522AEE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EB63801BDB80C100522AEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EB638B1BDB80C100522AEE /* GuaravilleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30EB63861BDB80C100522AEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30EB636E1BDB80C100522AEE /* Guaraville */;
+			targetProxy = 30EB63851BDB80C100522AEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30EB63781BDB80C100522AEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30EB63791BDB80C100522AEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30EB637D1BDB80C100522AEE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30EB637E1BDB80C100522AEE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30EB638C1BDB80C100522AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30EB638D1BDB80C100522AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30EB638F1BDB80C100522AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Guaraville/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30EB63901BDB80C100522AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Guaraville/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30EB63921BDB80C100522AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuaravilleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guaraville.app/Guaraville";
+			};
+			name = Debug;
+		};
+		30EB63931BDB80C100522AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuaravilleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guaraville.app/Guaraville";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30EB636A1BDB80C100522AEE /* Build configuration list for PBXProject "Guaraville" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EB638C1BDB80C100522AEE /* Debug */,
+				30EB638D1BDB80C100522AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EB638E1BDB80C100522AEE /* Build configuration list for PBXNativeTarget "Guaraville" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EB638F1BDB80C100522AEE /* Debug */,
+				30EB63901BDB80C100522AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30EB63911BDB80C100522AEE /* Build configuration list for PBXNativeTarget "GuaravilleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EB63921BDB80C100522AEE /* Debug */,
+				30EB63931BDB80C100522AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30EB63671BDB80C100522AEE /* Project object */;
+}
