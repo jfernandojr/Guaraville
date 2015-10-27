@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		306F20851BDE703D0083F48B /* IJProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306F20841BDE703D0083F48B /* IJProgressView.swift */; };
+		306F20881BDE92CD0083F48B /* FilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306F20871BDE92CD0083F48B /* FilterView.xib */; };
+		306F208A1BDE961E0083F48B /* FilterUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306F20891BDE961E0083F48B /* FilterUIView.swift */; };
 		30EB63751BDB80C100522AEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB63741BDB80C100522AEE /* AppDelegate.swift */; };
 		30EB63771BDB80C100522AEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB63761BDB80C100522AEE /* ViewController.swift */; };
 		30EB637A1BDB80C100522AEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EB63781BDB80C100522AEE /* Main.storyboard */; };
 		30EB637C1BDB80C100522AEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EB637B1BDB80C100522AEE /* Images.xcassets */; };
 		30EB637F1BDB80C100522AEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EB637D1BDB80C100522AEE /* LaunchScreen.xib */; };
 		30EB638B1BDB80C100522AEE /* GuaravilleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB638A1BDB80C100522AEE /* GuaravilleTests.swift */; };
+		30EB63951BDBCDBB00522AEE /* JsonRowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EB63941BDBCDBB00522AEE /* JsonRowView.xib */; };
+		30EB63971BDBD20A00522AEE /* JsonRowUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB63961BDBD20A00522AEE /* JsonRowUIView.swift */; };
+		30EB639D1BDCDA3100522AEE /* HelpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EB639C1BDCDA3100522AEE /* HelpView.xib */; };
+		30EB639F1BDCDC4100522AEE /* HelpUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB639E1BDCDC4100522AEE /* HelpUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		306F20841BDE703D0083F48B /* IJProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJProgressView.swift; sourceTree = "<group>"; };
+		306F20871BDE92CD0083F48B /* FilterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterView.xib; sourceTree = "<group>"; };
+		306F20891BDE961E0083F48B /* FilterUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterUIView.swift; sourceTree = "<group>"; };
 		30EB636F1BDB80C100522AEE /* Guaraville.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guaraville.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EB63731BDB80C100522AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30EB63741BDB80C100522AEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +46,10 @@
 		30EB63841BDB80C100522AEE /* GuaravilleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuaravilleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EB63891BDB80C100522AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30EB638A1BDB80C100522AEE /* GuaravilleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuaravilleTests.swift; sourceTree = "<group>"; };
+		30EB63941BDBCDBB00522AEE /* JsonRowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JsonRowView.xib; path = ../JsonRowView.xib; sourceTree = "<group>"; };
+		30EB63961BDBD20A00522AEE /* JsonRowUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonRowUIView.swift; sourceTree = "<group>"; };
+		30EB639C1BDCDA3100522AEE /* HelpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpView.xib; sourceTree = "<group>"; };
+		30EB639E1BDCDC4100522AEE /* HelpUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		306F20861BDE92B90083F48B /* FilterView */ = {
+			isa = PBXGroup;
+			children = (
+				306F20871BDE92CD0083F48B /* FilterView.xib */,
+				306F20891BDE961E0083F48B /* FilterUIView.swift */,
+			);
+			name = FilterView;
+			sourceTree = "<group>";
+		};
 		30EB63661BDB80C100522AEE = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +100,18 @@
 		30EB63711BDB80C100522AEE /* Guaraville */ = {
 			isa = PBXGroup;
 			children = (
+				306F20861BDE92B90083F48B /* FilterView */,
+				306F20841BDE703D0083F48B /* IJProgressView.swift */,
 				30EB63741BDB80C100522AEE /* AppDelegate.swift */,
+				30EB63941BDBCDBB00522AEE /* JsonRowView.xib */,
 				30EB63761BDB80C100522AEE /* ViewController.swift */,
 				30EB63781BDB80C100522AEE /* Main.storyboard */,
 				30EB637B1BDB80C100522AEE /* Images.xcassets */,
 				30EB637D1BDB80C100522AEE /* LaunchScreen.xib */,
 				30EB63721BDB80C100522AEE /* Supporting Files */,
+				30EB63961BDBD20A00522AEE /* JsonRowUIView.swift */,
+				30EB639C1BDCDA3100522AEE /* HelpView.xib */,
+				30EB639E1BDCDC4100522AEE /* HelpUIView.swift */,
 			);
 			path = Guaraville;
 			sourceTree = "<group>";
@@ -156,6 +185,8 @@
 		30EB63671BDB80C100522AEE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "MacBook Air";
 				TargetAttributes = {
@@ -193,8 +224,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				30EB637A1BDB80C100522AEE /* Main.storyboard in Resources */,
+				30EB63951BDBCDBB00522AEE /* JsonRowView.xib in Resources */,
+				306F20881BDE92CD0083F48B /* FilterView.xib in Resources */,
 				30EB637F1BDB80C100522AEE /* LaunchScreen.xib in Resources */,
 				30EB637C1BDB80C100522AEE /* Images.xcassets in Resources */,
+				30EB639D1BDCDA3100522AEE /* HelpView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306F208A1BDE961E0083F48B /* FilterUIView.swift in Sources */,
 				30EB63771BDB80C100522AEE /* ViewController.swift in Sources */,
+				30EB639F1BDCDC4100522AEE /* HelpUIView.swift in Sources */,
 				30EB63751BDB80C100522AEE /* AppDelegate.swift in Sources */,
+				30EB63971BDBD20A00522AEE /* JsonRowUIView.swift in Sources */,
+				306F20851BDE703D0083F48B /* IJProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +378,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = Guaraville/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.sementedigital.guaraville;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -350,9 +391,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = Guaraville/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.sementedigital.guaraville;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -409,6 +453,7 @@
 				30EB63901BDB80C100522AEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30EB63911BDB80C100522AEE /* Build configuration list for PBXNativeTarget "GuaravilleTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +462,7 @@
 				30EB63931BDB80C100522AEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
