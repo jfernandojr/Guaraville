@@ -2,8 +2,7 @@
 //  FilterUIView.swift
 //  Guaraville
 //
-//  Created by MacBook Air on 2015. 10. 27..
-//  Copyright © 2015년 MacBook Air. All rights reserved.
+//  Created by Fernando Júnior on 2015. 10. 27..
 //
 
 import Foundation

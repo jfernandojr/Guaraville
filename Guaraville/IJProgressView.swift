@@ -2,8 +2,7 @@
 //  IJProgressView.swift
 //  IJProgressView
 //
-//  Created by Isuru Nanayakkara on 1/14/15.
-//  Copyright (c) 2015 Appex. All rights reserved.
+//  Created by Fernando Júnior on 1/14/15.
 //
 
 import UIKit
